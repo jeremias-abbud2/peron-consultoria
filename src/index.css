@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Sora', sans-serif;
+  --font-sans: 'Inter', sans-serif;
+  --color-navy-900: #121f2f;
+  --color-navy-800: #1a2c42;
+  --color-navy-700: #253d5b;
+  --color-navy-600: #334e73;
+  --color-gold-500: #b8860b;
+  --color-gold-600: #9e7309;
+  --color-gold-400: #d4af37;
+  --color-gold-100: #fbf5e6;
+  --color-gold-50: #fdfaf3;
+  --color-charcoal-800: #343a40;
+  --color-charcoal-600: #495057;
+  --color-charcoal-500: #6c757d;
+  --color-offwhite: #f8f9fa;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: 'Sora', sans-serif;
+}
